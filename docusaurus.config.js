@@ -6,9 +6,9 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Su-Connect",
-  tagline: "Su-Connect Platform",
-  url: "https://your-docusaurus-test-site.com",
+  title: "SuConnect",
+  tagline: "Docs and tutorials for the SuConnect platform.",
+  url: "https://docs.teachersucenter.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "suconnect", // Usually your GitHub org/user name.
+  organizationName: "teachersucenter", // Usually your GitHub org/user name.
   projectName: "suconnect-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -59,9 +59,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Su Connect",
+        title: "SuConnect",
         logo: {
-          alt: "Su Connect Logo",
+          alt: "SuConnect Logo",
           src: "img/logosm.png",
         },
         items: [
