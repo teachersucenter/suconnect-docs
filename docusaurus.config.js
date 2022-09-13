@@ -59,9 +59,14 @@ const config = {
           src: "img/logosm.png",
         },
         items: [
+          {
+            href: "https://api-dev.teachersucenter.com/api/v2/swagger",
+            label: "Swagger",
+            position: "right",
+          },
 
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/teachersucenter/suconnect-docs",
             label: "GitHub",
             position: "right",
           },
@@ -71,42 +76,37 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Contacts",
             items: [
               {
-                label: "Tutorial",
-                to: "/",
+                label: "tech@teachersucenter.com",
+                to: "mailto:tech@teachersucenter.com",
               },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
               {
                 label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                href: "https://github.com/teachersucenter",
+              },
+            ],
+          },
+          {
+            title: "Teacher Su International School",
+            items: [
+              {
+                label: "hello@teachersucenter.com",
+                href: "mailto:hello@teachersucenter.com"
+              },
+              {
+                label: "teachersucenter.com",
+                href: "https://teachersucenter.com",
+              },
+              {
+                label: "facebook",
+                href: "https://facebook.com/teachersucenter"
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} by Su Connect`,
+        copyright: `Copyright © ${new Date().getFullYear()} by Teacher Su International School`,
       },
       prism: {
         theme: lightCodeTheme,
