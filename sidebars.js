@@ -28,6 +28,7 @@ const sidebars = {
         "introduction/expanding",
         "introduction/authorization",
         "introduction/metadata",
+        "query-param-reference"
         
       ],
     },
