@@ -1,11 +1,12 @@
 ---
-slug: "/"
-title: "SuConnect documentations"
+slug: "/staff-guide"
+title: "Staff guide"
 ---
 
-# SuConnect documentations
+# Guide for staff members
 The official documentation site for the SuConnect platform. Generated using [Docusarus](https://docusaurus.io) :)
 
+import DocCardList from '@theme/DocCardList';
 
 
 

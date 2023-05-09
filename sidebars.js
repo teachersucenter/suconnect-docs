@@ -15,21 +15,44 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   tutorialSidebar: [
+    // {
+    //   type: "category",
+    //   label: "Docs",
+    //   link: { type: "doc", id: "index" },
+    //   items: [
+    //     "introduction/introduction",
+    //     "introduction/authentication",
+    //     "introduction/pagination",
+    //     "introduction/sorting",
+    //     "introduction/filtering",
+    //     "introduction/expanding",
+    //     "introduction/authorization",
+    //     "introduction/metadata",
+    //     "query-param-reference"
+        
+    //   ],
+    // },
     {
       type: "category",
-      label: "Docs",
+      label: "Staff guide",
       link: { type: "doc", id: "index" },
       items: [
-        "introduction/introduction",
-        "introduction/authentication",
-        "introduction/pagination",
-        "introduction/sorting",
-        "introduction/filtering",
-        "introduction/expanding",
-        "introduction/authorization",
-        "introduction/metadata",
-        "query-param-reference"
-        
+        "staff-guide/index",
+        "staff-guide/getting-started",
+        "staff-guide/your-classes",
+
+      ],
+    },
+    {
+      type: "category",
+      label: "Admin guide",
+      link: { type: "doc", id: "index" },
+      items: [
+        "admin-guide/index",
+        "admin-guide/getting-started",
+        "admin-guide/creating-a-course",
+        "admin-guide/creating-a-staff",
+
       ],
     },
   ],
